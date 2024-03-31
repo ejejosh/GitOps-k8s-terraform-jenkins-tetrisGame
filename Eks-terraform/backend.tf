@@ -1,7 +1,7 @@
 terraform {
   backend "s3" {
-    bucket = "ejejosh-bucket" 
+    bucket = "ejejosh-s3" 
     key    = "eks/terraform.tfstate"
-    region = "us-east-1"
+    region = "eu-west-2"
   }
 }
